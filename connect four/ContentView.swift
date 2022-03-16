@@ -88,6 +88,7 @@ struct ContentView: View {
                             //if playing ,then you can put the chess down
                             Button(action: {
                                 chess_pos = chessPosiotion(board_row:boards[row])
+                                round_time=15
                                 switch now_turn{
                                 
                                 case .red:
